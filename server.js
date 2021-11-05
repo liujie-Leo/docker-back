@@ -14,5 +14,6 @@ let server = http.createServer((req, res) => {
 })
 
 server.listen(2000, () => {
+  console.log('test');
   console.log('后端API接口服务已经启动在2000端口上！');
 })
