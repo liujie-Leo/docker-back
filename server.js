@@ -2,7 +2,6 @@ let http = require('http');
 let users = [
   { id: 1, name: "Leo" },
   { id: 2, name: "Jerry" },
-  { id: 2, name: "ssss" },
 ];
 
 let server = http.createServer((req, res) => {
