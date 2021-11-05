@@ -5,4 +5,4 @@ COPY . /app
 WORKDIR /app
 RUN npm install
 EXPOSE 2000
-CMD npm run dev
+CMD npm run serve
